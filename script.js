@@ -30,13 +30,13 @@ var canvas = document.getElementById('animation_bg');
 resizeCanvas();
 
 let config = {
-    SIM_RESOLUTION: 58,
+    SIM_RESOLUTION: 118,
     DYE_RESOLUTION: 1324,
     CAPTURE_RESOLUTION: 512,
-    DENSITY_DISSIPATION: 0.5,
+    DENSITY_DISSIPATION: 2,
     VELOCITY_DISSIPATION: 3,
     PRESSURE: 0.8,
-    PRESSURE_ITERATIONS: 10,
+    PRESSURE_ITERATIONS: 20,
     CURL: 0,
     SPLAT_RADIUS: 0.25,
     SPLAT_FORCE: 6000,
