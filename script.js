@@ -30,7 +30,7 @@ var canvas = document.getElementById('animation_bg');
 resizeCanvas();
 
 let config = {
-    SIM_RESOLUTION: 118,
+    SIM_RESOLUTION: 120,
     DYE_RESOLUTION: 1324,
     CAPTURE_RESOLUTION: 512,
     DENSITY_DISSIPATION: 2,
